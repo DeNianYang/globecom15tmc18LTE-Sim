@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Camera.h</itemPath>
+      <itemPath>DP_based.h</itemPath>
+      <itemPath>Deployment.h</itemPath>
+      <itemPath>EdgeCover.h</itemPath>
+      <itemPath>GreedyAllocation.h</itemPath>
+      <itemPath>MAMC.h</itemPath>
+      <itemPath>MCS.h</itemPath>
+      <itemPath>Random.h</itemPath>
+      <itemPath>SINR.h</itemPath>
+      <itemPath>System.h</itemPath>
+      <itemPath>UE.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Baseline.c</itemPath>
+      <itemPath>DP_based.c</itemPath>
+      <itemPath>Deployment.c</itemPath>
+      <itemPath>EdgeCover.c</itemPath>
+      <itemPath>GreedyAllocation.c</itemPath>
+      <itemPath>Initial.c</itemPath>
+      <itemPath>MAMC.c</itemPath>
+      <itemPath>MCS.c</itemPath>
+      <itemPath>Random.c</itemPath>
+      <itemPath>RoundRobin.c</itemPath>
+      <itemPath>SINR.c</itemPath>
+      <itemPath>TMC2013.c</itemPath>
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Baseline.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DP_based.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DP_based.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Deployment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Deployment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EdgeCover.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EdgeCover.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GreedyAllocation.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="GreedyAllocation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Initial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="MAMC.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="MAMC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCS.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="MCS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Random.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RoundRobin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SINR.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SINR.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TMC2013.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="UE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Baseline.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DP_based.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DP_based.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Deployment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Deployment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EdgeCover.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EdgeCover.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GreedyAllocation.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="GreedyAllocation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Initial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="MAMC.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="MAMC.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCS.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="MCS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Random.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RoundRobin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SINR.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SINR.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TMC2013.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="UE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
